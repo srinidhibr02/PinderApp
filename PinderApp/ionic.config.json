@@ -1,0 +1,7 @@
+{
+  "name": "PinderApp",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}
