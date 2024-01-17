@@ -10,4 +10,8 @@ export const routes: Routes = [
     redirectTo: 'home',
     pathMatch: 'full',
   },
+  {
+    path: 'splashscreen',
+    loadComponent: () => import('./pages/splashscreen/splashscreen.page').then( m => m.SplashscreenPage)
+  },
 ];
